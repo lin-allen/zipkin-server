@@ -281,7 +281,7 @@
               <localRepositoryPath>${project.build.directory}/local-repo</localRepositoryPath>
               <postBuildHookScript>verify</postBuildHookScript>
               <addTestClassPath>true</addTestClassPath>
-              <skipInvocation>${skipTests}</skipInvocation>
+              <skipInvocation>true</skipInvocation>
               <streamLogs>true</streamLogs>
             </configuration>
             <executions>
